@@ -9,5 +9,5 @@ terraform {
 provider "null" {}
 
 module "sub" {
-  source = "./a-submodule"
+  source = "./modules/a-submodule"
 }
